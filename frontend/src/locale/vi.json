@@ -1,0 +1,88 @@
+{
+    "Nav": {
+        "Member": "Thành viên",
+        "Department": "Bộ phận",
+        "Material": "Vật liệu",
+        "Inventory": "Kiểm kê",
+        "Catalog": "Catalog",
+        "Logout": "Đăng xuất"
+    },
+    "Home": {
+        "title": "Chào mừng tới với Trang chủ"
+    },
+    "Login": {
+        "title": "Đăng nhập",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "submit": "Đăng nhập"
+    },
+    "Member": {
+        "title": "Quản lý người dùng",
+        "add": "Thêm",
+        "searchByRole": "Tìm kiếm bằng chức năng",
+        "searchByID": "Tìm kiếm bằng mã",
+        "showPassword": "Hiện mật khẩu",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "id": "ID",
+        "role": "Chức năng",
+        "action": "Hành động"
+    },
+    "Departments": {
+        "title": "Quản lý bộ phận",
+        "add": "Thêm bộ phận",
+        "search": "Tìm kiếm bằng ID hoặc tên bộ phận",
+        "id": "Mã bộ phận",
+        "name": "Tên bộ phận",
+        "action": "Hành động",
+        "confirm": "Bạn có chắc muốn xóa bộ phận này không?"
+    },
+    "Material": {
+        "title": "Quản lý vật liệu",
+        "search": "Tìm kiếm",
+        "add": "Thêm",
+        "modify": "Sửa",
+        "delete": "Xóa",
+        "export": "Xuất Excel",
+        "select": "Chọn",
+        "NO.": "NO",
+        "Season": "Season",
+        "Style Number": "Style",
+        "Working NO.": "Working NO.",
+        "Article NO.": "Article NO.",
+        "Rounds": "Rounds",
+        "Quantity": "Quantity",
+        "Receiver Dept.": "Receiver Dept.",
+        "Receiver": "Receiver",
+        "Sender": "Sender",
+        "Return Date": "Return Date",
+        "Returner": "Returner",
+        "Note": "Note",
+        "Update Time": "Update Time",
+        "Modifications": "Modifications Time",
+        "Catalog": "Catalog"
+    },
+    "Inventory": {
+        "title": "Quản lý kiểm kê",
+        "search": "Tìm kiếm",
+        "add": "Thêm",
+        "modify": "Sửa",
+        "delete": "Xóa",
+        "export": "Xuất Excel",
+        "select": "Chọn",
+        "NO.": "NO",
+        "Season": "Season",
+        "Style Number": "Style",
+        "Working NO.": "Working NO.",
+        "Article NO.": "Article NO.",
+        "Rounds": "Rounds",
+        "Quantity": "Quantity",
+        "Location": "Location",
+        "Inventory Date": "Inventory Date",
+        "Count Quantity": "Count Quantity",
+        "Counter 1": "Counter 1",
+        "Counter 2": "Counter 2",
+        "Note": "Note",
+        "Modifications": "Modifications Time"
+    }
+}

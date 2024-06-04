@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #e66900;
+    /* Màu nền của thanh navbar */
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    /* Đảm bảo logo không quá cao */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    /* Màu chữ */
+    font-weight: bold;
+    /* In đậm */
+}
+
+.ml-auto {
+    margin-left: auto;
+    /* Đẩy nút Logout về phía bên phải */
+}
+
+@media (min-width: 768px) {
+
+    /* Điều chỉnh kiểu cho màn hình lớn hơn hoặc bằng 768px */
+    .navbar {
+        justify-content: center;
+        /* Đặt thanh navbar ở giữa */
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "Nav": {
+        "Member": "成員",
+        "Department": "部門",
+        "Material": "材料",
+        "Inventory": "存貨",
+        "Catalog": "目錄",
+        "Logout": "登出"
+    },
+    "Home": {
+        "title": "歡迎來到主頁"
+    },
+    "Login": {
+        "title": "登入",
+        "username": "使用者名稱",
+        "password": "密碼",
+        "submit": "提交"
+    },
+    "Member": {
+        "title": "會員管理",
+        "add": "添加",
+        "searchByRole": "逐個搜索",
+        "searchByID": "通過ID搜索",
+        "showPassword": "顯示密碼",
+        "username": "使用者名稱",
+        "password": "密碼",
+        "id": "ID",
+        "role": "角色",
+        "action": "行動"
+    },
+    "Departments": {
+        "title": "部門管理",
+        "add": "添加新部門",
+        "search": "通過ID或名稱搜索",
+        "id": "部門ID",
+        "name": "部門名稱",
+        "action": "行動",
+        "modify": "調整",
+        "delete": "刪除",
+        "confirm": "您確定要刪除此部分嗎？"
+    },
+    "Material": {
+        "title": "物資管理",
+        "search": "搜尋",
+        "add": "添加",
+        "modify": "調整",
+        "delete": "刪除",
+        "export": "導出到Excel",
+        "select": "選擇",
+        "NO.": "序號",
+        "Season": "季节",
+        "Style Number": "款号",
+        "Working NO.": "Working NO.",
+        "Article NO.": "Article NO.",
+        "Rounds": "輪次",
+        "Quantity": "数量",
+        "Receiver Dept.": "接收人部门 ",
+        "Receiver": "接收人",
+        "Sender": "发放人",
+        "Return Date": "歸還日期",
+        "Returner": "歸還人",
+        "Note": "备注",
+        "Update Time": "更新時間",
+        "Modifications": "修改時間",
+        "Catalog": "目錄"
+    },
+    "Inventory": {
+        "title": "庫存管理",
+        "search": "搜尋",
+        "add": "添加",
+        "modify": "調整",
+        "delete": "刪除",
+        "export": "導出到Excel",
+        "select": "選擇",
+        "NO.": "序號",
+        "Season": "季节",
+        "Style Number": "款号",
+        "Working NO.": "Working NO.",
+        "Article NO.": "Article NO.",
+        "Rounds": "輪次",
+        "Quantity": "数量",
+        "Location": "储存位置",
+        "Inventory Date": "盘点日期",
+        "Count Quantity": "盘点数量",
+        "Counter 1": "盘点人 1",
+        "Counter 2": "盘点人 2",
+        "Note": "备注",
+        "Modifications": "修改時間"
+    }
+}

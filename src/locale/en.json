@@ -1,0 +1,93 @@
+{
+    "Nav": {
+        "Member": "Member",
+        "Department": "Department",
+        "Material": "Material",
+        "Inventory": "Inventory",
+        "Catalog": "Catalog",
+        "Logout": "Logout"
+    },
+    "Home": {
+        "title": "Welcome to the Home Page"
+    },
+    "Login": {
+        "title": "Login",
+        "username": "Username",
+        "password": "Password",
+        "submit": "Submit"
+    },
+    "Member": {
+        "title": "Member Management",
+        "add": "Add",
+        "searchByRole": "Search by role",
+        "searchByID": "Search by ID",
+        "showPassword": "Show password",
+        "username": "Username",
+        "password": "Password",
+        "id": "ID",
+        "role": "Role",
+        "action": "Action",
+        "modify": "Modify",
+        "delete": "Delete"
+    },
+    "Departments": {
+        "title": "Department Management",
+        "add": "Add a new Department",
+        "search": "Search by ID or name",
+        "id": "Department ID",
+        "name": "Department Name",
+        "action": "Action",
+        "modify": "Modify",
+        "delete": "Delete",
+        "edit": "Department Editing",
+        "confirm": "Are you sure you want to delete this part?"
+    },
+    "Material": {
+        "title": "Material Management",
+        "search": "Search",
+        "add": "Add",
+        "modify": "Modify",
+        "delete": "Delete",
+        "export": "Export to Excel",
+        "select": "Select",
+        "NO.": "NO",
+        "Season": "Season",
+        "Style Number": "Style",
+        "Working NO.": "Working NO.",
+        "Article NO.": "Article NO.",
+        "Rounds": "Rounds",
+        "Quantity": "Quantity",
+        "Receiver Dept.": "Receiver Dept.",
+        "Receiver": "Receiver",
+        "Sender": "Sender",
+        "Return Date": "Return Date",
+        "Returner": "Returner",
+        "Note": "Note",
+        "Update Time": "Update Time",
+        "Modifications": "Modifications Time",
+        "Catalog": "Catalog"
+    },
+    "Inventory": {
+        "title": "Inventory Management",
+        "search": "Search",
+        "add": "Add",
+        "modify": "Modify",
+        "delete": "Delete",
+        "export": "Export to Excel",
+        "select": "Select",
+        "NO.": "NO",
+        "Season": "Season",
+        "Style Number": "Style",
+        "Working NO.": "Working NO.",
+        "Article NO.": "Article NO.",
+        "Rounds": "Rounds",
+        "Quantity": "Quantity",
+        "Location": "Location",
+        "Inventory Date": "Inventory Date",
+        "Count Quantity": "Count Quantity",
+        "Counter 1": "Counter 1",
+        "Counter 2": "Counter 2",
+        "Note": "Note",
+        "Modifications": "Modifications Time"
+    }
+}

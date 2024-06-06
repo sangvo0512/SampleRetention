@@ -18,10 +18,10 @@
 
 .login-image {
     background-image: url('../image/loginBanner.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 50%;
+    width: 60%;
     height: 100%;
 }
 

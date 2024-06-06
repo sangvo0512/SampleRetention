@@ -4,19 +4,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
+    margin-top: 10%;
+    flex-direction: column;
 }
 
-.home-button-group {
+.home-button-group-up,
+.home-button-group-down {
     display: flex;
-    gap: 15px;
+    border-radius: 5px;
+    width: 60%;
+    height: 56px;
+    gap: 35px;
+    margin-top: 35px;
     /* Khoảng cách giữa các nút */
 }
 
-.button-group .btn {
+.home-title {
+    color: #543310;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.home-btn {
+    border: 1px solid #543310;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.home-button-group-up .home-btn,
+.home-button-group-down .home-btn {
+    flex: 1;
+    /* Chia đều chiều rộng các nút */
     display: flex;
+    justify-content: center;
+    /* Căn giữa nội dung theo chiều ngang */
     align-items: center;
-    margin-top: 30%;
+    /* Căn giữa nội dung theo chiều dọc */
+    border: 1px solid #543310;
+    border-radius: 15px;
+    height: 100%;
+    /* Chia đều chiều cao các nút */
 }
 
 .icon {

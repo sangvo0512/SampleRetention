@@ -137,7 +137,7 @@ const Inventory = ({ materialData }) => {
 
     return (
         <div>
-            <h2>{t('Inventory.title')}</h2>
+            <h2 className='inventory-title'>{t('Inventory.title')}</h2>
             <div className="mb-3 d-flex">
                 <InputGroup className="mr-3">
                     <FormControl

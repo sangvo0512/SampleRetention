@@ -8,7 +8,13 @@
         "Logout": "登出"
     },
     "Home": {
-        "title": "歡迎來到主頁"
+        "title": "歡迎來到主頁",
+        "Member": "成員",
+        "Department": "部門",
+        "Material": "材料",
+        "Inventory": "存貨",
+        "Catalog": "目錄",
+        "Logout": "登出"
     },
     "Login": {
         "title": "登入",

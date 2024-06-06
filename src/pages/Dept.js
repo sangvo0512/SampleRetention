@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Table, Button, Form, Modal } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
+import '../style/Dept.css'; // Import CSS file
+
 const Dept = () => {
     const [depts, setDepts] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
@@ -60,72 +62,78 @@ const Dept = () => {
     );
 
     return (
-        <div className="container mt-5">
-            <div className="d-flex justify-content-between align-items-center mb-3">
-                <h2>{t('Departments.title')}</h2>
-                <Button variant="primary" onClick={handleAddDept}>{t('Departments.add')}</Button>
-            </div>
-            <Form.Control
-                type="text"
-                placeholder={t('Departments.search')}
-                value={searchTerm}
-                onChange={handleSearchChange}
-            />
-            <Table striped bordered hover className="mt-3">
-                <thead>
-                    <tr>
-                        <th>{t('Departments.id')}</th>
-                        <th>{t('Departments.name')}</th>
-                        <th>{t('Departments.action')}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {filteredDepts.map(dept => (
-                        <tr key={dept.id}>
-                            <td>{dept.id}</td>
-                            <td>{dept.name}</td>
-                            <td>
-                                <Button variant="warning" onClick={() => handleEditDept(dept)}>{t('Departments.modify')}</Button>{' '}
-                                <Button variant="danger" onClick={() => handleDeleteDept(dept.id)}>{t('Departments.delete')}</Button>
-                            </td>
-                        </tr>
-                    ))}
-                </tbody>
-            </Table>
+        <div>
+            <h2 className="dept-title">{t('Departments.title')}</h2>
+            <div className="container mt-3 dept-container">
 
-            <Modal show={showModal} onHide={handleModalClose}>
-                <Modal.Header closeButton>
-                    <Modal.Title>{isEditing ? 'Department Editing' : 'Add a Department'}</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <Form>
-                        <Form.Group controlId="formDeptId">
-                            <Form.Label>{t('Departments.id')}</Form.Label>
-                            <Form.Control
-                                type="text"
-                                value={currentDept.id}
-                                onChange={(e) => setCurrentDept({ ...currentDept, id: e.target.value })}
-                                readOnly={isEditing}
-                            />
-                        </Form.Group>
-                        <Form.Group controlId="formDeptName">
-                            <Form.Label>{t('Departments.name')}</Form.Label>
-                            <Form.Control
-                                type="text"
-                                value={currentDept.name}
-                                onChange={(e) => setCurrentDept({ ...currentDept, name: e.target.value })}
-                            />
-                        </Form.Group>
-                    </Form>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleModalClose}>Close</Button>
-                    <Button variant="primary" onClick={handleModalSave}>
-                        {isEditing ? 'Save changes' : 'Add a Department'}
-                    </Button>
-                </Modal.Footer>
-            </Modal>
+                <div className="dept-header">
+                    <Form.Control
+                        type="text"
+                        placeholder={t('Departments.search')}
+                        value={searchTerm}
+                        onChange={handleSearchChange}
+                        className="dept-search"
+                    />
+                    <Button variant="primary" onClick={handleAddDept} className="dept-add-button">{t('Departments.add')}</Button>
+                </div>
+                <Table striped bordered hover className="dept-table mt-3">
+                    <thead>
+                        <tr>
+                            <th>{t('Departments.id')}</th>
+                            <th>{t('Departments.name')}</th>
+                            <th>{t('Departments.action')}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {filteredDepts.map(dept => (
+                            <tr key={dept.id}>
+                                <td>{dept.id}</td>
+                                <td>{dept.name}</td>
+                                <td>
+                                    <Button variant="warning" onClick={() => handleEditDept(dept)}>{t('Departments.modify')}</Button>{' '}
+                                    <Button variant="danger" onClick={() => handleDeleteDept(dept.id)}>{t('Departments.delete')}</Button>
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </Table>
+
+                <Modal show={showModal} onHide={handleModalClose}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>{isEditing ? 'Department Editing' : 'Add a Department'}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <Form>
+                            <Form.Group controlId="formDeptId">
+                                <Form.Label>{t('Departments.id')}</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    value={currentDept.id}
+                                    onChange={(e) => setCurrentDept({ ...currentDept, id: e.target.value })}
+                                    readOnly={isEditing}
+                                />
+                            </Form.Group>
+                            <Form.Group controlId="formDeptName">
+                                <Form.Label>{t('Departments.name')}</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    value={currentDept.name}
+                                    onChange={(e) => setCurrentDept({ ...currentDept, name: e.target.value })}
+                                />
+                            </Form.Group>
+                        </Form>
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button variant="secondary" onClick={handleModalClose}>Close</Button>
+                        <Button variant="primary" onClick={handleModalSave}>
+                            {isEditing ? 'Save changes' : 'Add a Department'}
+                        </Button>
+                    </Modal.Footer>
+                </Modal>
+            </div>
         </div>
+
+
     );
 };
 

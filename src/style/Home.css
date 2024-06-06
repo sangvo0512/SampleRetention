@@ -1,0 +1,25 @@
+/* src/style/Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.home-button-group {
+    display: flex;
+    gap: 15px;
+    /* Khoảng cách giữa các nút */
+}
+
+.button-group .btn {
+    display: flex;
+    align-items: center;
+    margin-top: 30%;
+}
+
+.icon {
+    margin-right: 8px;
+    /* Khoảng cách giữa icon và text */
+}

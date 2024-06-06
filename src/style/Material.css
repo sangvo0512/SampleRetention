@@ -8,6 +8,12 @@
     margin-bottom: 10px;
 }
 
+.material-title {
+    color: #815854;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
 .mb-3.d-flex .form-control {
     flex-grow: 1;
     margin-right: 10px;

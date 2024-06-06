@@ -8,7 +8,13 @@
         "Logout": "Logout"
     },
     "Home": {
-        "title": "Welcome to the Home Page"
+        "title": "Welcome to the Home Page",
+        "Member": "Member",
+        "Department": "Department",
+        "Material": "Material",
+        "Inventory": "Inventory",
+        "Catalog": "Catalog",
+        "Logout": "Logout"
     },
     "Login": {
         "title": "Login",

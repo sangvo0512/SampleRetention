@@ -8,7 +8,13 @@
         "Logout": "Đăng xuất"
     },
     "Home": {
-        "title": "Chào mừng tới với Trang chủ"
+        "title": "Chào mừng tới với Trang chủ",
+        "Member": "Thành viên",
+        "Department": "Bộ phận",
+        "Material": "Vật liệu",
+        "Inventory": "Kiểm kê",
+        "Catalog": "Catalog",
+        "Logout": "Đăng xuất"
     },
     "Login": {
         "title": "Đăng nhập",

@@ -152,7 +152,7 @@ const Material = () => {
 
     return (
         <div>
-            <h2>{t('Material.title')}</h2>
+            <h2 className='material-title'>{t('Material.title')}</h2>
             <div className="mb-3 d-flex">
                 <InputGroup className="mr-3">
                     <FormControl

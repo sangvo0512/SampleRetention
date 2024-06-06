@@ -1,15 +1,30 @@
 .navbar {
-    background-color: #e66900;
+    background-color: #ED7D31;
     /* Màu nền của thanh navbar */
 }
 
-.navbar-brand img {
-    max-height: 40px;
+.navbar-brand {
+    background-image: url('../image/logo.jpg');
+    max-height: 36px;
     /* Đảm bảo logo không quá cao */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 70px;
+    width: 15%;
+}
+
+/* .navbar-brand img {
+    max-height: 40px;
+
+} */
+.Form.Lable {
+    color: #F9EBDE;
+    font-weight: bold;
 }
 
 .navbar-nav .nav-link {
-    color: white;
+    color: #543310;
     /* Màu chữ */
     font-weight: bold;
     /* In đậm */
@@ -17,7 +32,24 @@
 
 .ml-auto {
     margin-left: auto;
-    /* Đẩy nút Logout về phía bên phải */
+
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-item hover {
+    color: aqua;
+}
+
+.icon {
+    margin-right: 8px;
+    /* Khoảng cách giữa icon và text */
+}
+
+.icon-logout {
+    margin: 5px;
 }
 
 @media (min-width: 768px) {

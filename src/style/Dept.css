@@ -1,0 +1,38 @@
+/* src/style/Dept.css */
+
+.dept-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.dept-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.dept-title {
+    color: #815854;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.dept-search {
+    flex: 2;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.dept-add-button {
+    flex: 1;
+}
+
+.dept-table {
+    width: 100%;
+    max-width: 860px;
+}

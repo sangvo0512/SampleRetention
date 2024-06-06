@@ -52,10 +52,12 @@ function Login() {
             </div>
             <div className="login-image"></div>
             <div className="login-form-container">
+
                 <Form className="login-form" onSubmit={handleLogin}>
-                    <img src="/image/logo.png" alt="Logo" className="login-logo" />
+                    <div className="login-logo" alt="Logo"></div>
+                    {/* <img src='/image/logo.jpg' alt="Logo" className="login-logo" /> */}
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Label>{t('Login.username')}</Form.Label>
+                        <Form.Label className='txtLogin'>{t('Login.username')}</Form.Label>
                         <Form.Control
                             type="text"
                             placeholder="Enter username"
@@ -65,7 +67,7 @@ function Login() {
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Label>{t('Login.password')}</Form.Label>
+                        <Form.Label className='txtLogin'>{t('Login.password')}</Form.Label>
                         <Form.Control
                             type="password"
                             placeholder="Password"
